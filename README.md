@@ -3,6 +3,6 @@
 基于https://github.com/CSharpCross/RongIM.Droid
 
 实现了：
--1，基本的IM聊天
--2，音频和视频聊天
--3，...
+- 1，基本的IM聊天
+- 2，音频和视频聊天
+- 3，...
