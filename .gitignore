@@ -1,0 +1,6 @@
+
+*.dll
+
+*.nupkg
+
+packages/Xamarin.Android.Support.Vector.Drawable.24.2.1/build/Xamarin.Android.Support.Vector.Drawable.targets
