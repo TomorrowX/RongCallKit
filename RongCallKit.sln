@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RongCallKit.Droid", "RongCallKit.Droid\RongCallKit.Droid.csproj", "{6FE8541E-546D-4F6A-AD2B-FCD2B07EC488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCIM", "SCIM\SCIM.csproj", "{3D93933E-2E67-4787-ABAB-33D15ACAE41E}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Test", "Test\Test.csproj", "{821DF989-6506-4EDB-84B7-B5C9FFE274CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FE8541E-546D-4F6A-AD2B-FCD2B07EC488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE8541E-546D-4F6A-AD2B-FCD2B07EC488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE8541E-546D-4F6A-AD2B-FCD2B07EC488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE8541E-546D-4F6A-AD2B-FCD2B07EC488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D93933E-2E67-4787-ABAB-33D15ACAE41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D93933E-2E67-4787-ABAB-33D15ACAE41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D93933E-2E67-4787-ABAB-33D15ACAE41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D93933E-2E67-4787-ABAB-33D15ACAE41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821DF989-6506-4EDB-84B7-B5C9FFE274CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821DF989-6506-4EDB-84B7-B5C9FFE274CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821DF989-6506-4EDB-84B7-B5C9FFE274CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821DF989-6506-4EDB-84B7-B5C9FFE274CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

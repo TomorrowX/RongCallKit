@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="选择登陆用户"
+        android:padding="10dp" />
+    <LinearLayout
+        android:id="@+id/login_panel"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/login_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用户1" />
+        <Button
+            android:id="@+id/login_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用户2" />
+        <Button
+            android:id="@+id/login_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用户3" />
+        <Button
+            android:id="@+id/login_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用户4" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/action_panel"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/start_private"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="私聊" />
+        <Button
+            android:id="@+id/start_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="群聊" />
+    </LinearLayout>
+</LinearLayout>

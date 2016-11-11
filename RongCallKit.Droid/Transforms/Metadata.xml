@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<remove-node path="/api/package[@name='io.agora.rtc']" />
+	<remove-node path="/api/package[@name='io.agora.rtc.audio']" />
+	<remove-node path="/api/package[@name='io.agora.rtc.internal']" />
+	<remove-node path="/api/package[@name='io.agora.rtc.video']" />
+	<remove-node path="/api/package[@name='io.agora.rtc.xm']" />
+	<remove-node path="/api/package[@name='io.rong.imlib.statistics']/class[@name='StatisticsStore']" />
+<!--	<remove-node path="/api/package[@name='io.rong.imkit.widget']/class[@name='RCViewFlow']" />-->
+	<remove-node path="/api/package[@name='io.rong.imlib']/class[@name='RongIMClient.GetNotificationQuietHoursCallback']" />
+	<attr path="/api/package[@name='io.rong.imkit.fragment']/class[@name='SubConversationListFragment']/method[@name='initFragment' and count(parameter)=1 and parameter[1][@type='android.net.Uri']]" name="visibility">protected</attr>
+	<attr path="/api/package[@name='io.rong.imkit.fragment']/interface[@name='UriFragment.IActionBarHandler']" name="visibility">public</attr>
+	<attr path="/api/package[@name='io.rong.imkit.model']/class[@name='Event.BaseConversationEvent']" name="visibility">public</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.adapter']/class[@name='ConversationAddMemberAdapter']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.adapter']/class[@name='ConversationListAdapter']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+<!--	<attr path="/api/package[@name='io.rong.imkit.widget.adapter']/class[@name='EmojiPagerAdapter.EmojiAdapter']/method[@name='getItem' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>-->
+	<attr path="/api/package[@name='io.rong.imkit.widget.adapter']/class[@name='MessageListAdapter']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.adapter']/class[@name='SubConversationListAdapter']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='PrivateConversationProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+<!--	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='DefaultMessageItemProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>-->
+	<attr path="/api/package[@name='io.rong.imkit.widget.adapter']/class[@name='ConversationListAdapter']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.adapter']/class[@name='ConversationListAdapter']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='IContainerItemProvider.MessageProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='PublicServiceMultiRichContentMessageProvider.PublicAccountMsgAdapter']/method[@name='getItem']" name="managedReturn">Java.Lang.Object</attr>
+<!--	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='DefaultMessageItemProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>-->
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='DiscussionNotificationMessageItemProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='HandshakeMessageItemProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='ImageMessageItemProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='InfoNotificationMsgItemProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='LocationMessageItemProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='PublicServiceMultiRichContentMessageProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='PublicServiceRichContentMessageProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='RichContentMessageItemProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='TextMessageItemProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='UnknownMessageItemProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='VoiceMessageItemProvider']/method[@name='bindView']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+<!--	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='DefaultMessageItemProvider']/method[@name='getContentSummary']/parameter[@name='p0']" name="type">Java.Lang.Object</attr>-->
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='DiscussionNotificationMessageItemProvider']/method[@name='getContentSummary']/parameter[@name='p0']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='HandshakeMessageItemProvider']/method[@name='getContentSummary']/parameter[@name='p0']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='ImageMessageItemProvider']/method[@name='getContentSummary']/parameter[@name='p0']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='InfoNotificationMsgItemProvider']/method[@name='getContentSummary']/parameter[@name='p0']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='LocationMessageItemProvider']/method[@name='getContentSummary']/parameter[@name='p0']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='PublicServiceMultiRichContentMessageProvider']/method[@name='getContentSummary']/parameter[@name='p0']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='PublicServiceRichContentMessageProvider']/method[@name='getContentSummary']/parameter[@name='p0']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='RichContentMessageItemProvider']/method[@name='getContentSummary']/parameter[@name='p0']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='TextMessageItemProvider']/method[@name='getContentSummary']/parameter[@name='p0']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='UnknownMessageItemProvider']/method[@name='getContentSummary']/parameter[@name='p0']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='VoiceMessageItemProvider']/method[@name='getContentSummary']/parameter[@name='p0']" name="type">Java.Lang.Object</attr>
+<!--	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='DefaultMessageItemProvider']/method[@name='onItemClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>-->
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='DiscussionNotificationMessageItemProvider']/method[@name='onItemClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='HandshakeMessageItemProvider']/method[@name='onItemClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='ImageMessageItemProvider']/method[@name='onItemClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='InfoNotificationMsgItemProvider']/method[@name='onItemClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='LocationMessageItemProvider']/method[@name='onItemClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='PublicServiceMultiRichContentMessageProvider']/method[@name='onItemClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='PublicServiceRichContentMessageProvider']/method[@name='onItemClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='RichContentMessageItemProvider']/method[@name='onItemClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='TextMessageItemProvider']/method[@name='onItemClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='UnknownMessageItemProvider']/method[@name='onItemClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='VoiceMessageItemProvider']/method[@name='onItemClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+<!--	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='DefaultMessageItemProvider']/method[@name='onItemLongClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>-->
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='DiscussionNotificationMessageItemProvider']/method[@name='onItemLongClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='HandshakeMessageItemProvider']/method[@name='onItemLongClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='ImageMessageItemProvider']/method[@name='onItemLongClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='InfoNotificationMsgItemProvider']/method[@name='onItemLongClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='LocationMessageItemProvider']/method[@name='onItemLongClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='PublicServiceMultiRichContentMessageProvider']/method[@name='onItemLongClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='PublicServiceRichContentMessageProvider']/method[@name='onItemLongClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='RichContentMessageItemProvider']/method[@name='onItemLongClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='TextMessageItemProvider']/method[@name='onItemLongClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='UnknownMessageItemProvider']/method[@name='onItemLongClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imkit.widget.provider']/class[@name='VoiceMessageItemProvider']/method[@name='onItemLongClick']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.AccountInfoListener']/method[@name='OnError']" name="argsType">AccountInfoErrorEventArgs</attr>
+	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.AccountInfoListener']/method[@name='onReceived']" name="argsType">AccountInfoReceivedEventArgs</attr>
+	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.DiscussionInfoListener']/method[@name='OnError']" name="argsType">DiscussionInfoErrorEventArgs</attr>
+	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.DiscussionInfoListener']/method[@name='onReceived']" name="argsType">DiscussionInfoReceivedEventArgs</attr>
+	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.PushSettingListener']/method[@name='OnError']" name="argsType">PushSettingErrorEventArgs</attr>
+	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.PushSettingListener']/method[@name='OnSuccess']" name="argsType">PushSettingSuccessEventArgs</attr>
+	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.SetBlacklistListener']/method[@name='OnError']" name="argsType">SetBlacklistErrorEventArgs</attr>
+	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.SetBlacklistListener']/method[@name='OnSuccess']" name="argsType">SetBlacklistSuccessEventArgs</attr>
+<!--	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.UserInfoOutputListener']/method[@name='OnError']" name="argsType">UserInfoOutputErrorEventArgs</attr>-->
+<!--	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.UserInfoOutputListener']/method[@name='onReceiveUserInfo']" name="argsType">UserInfoOutputReceiveEventArgs</attr>-->
+	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.ChatroomInfoListener']/method[@name='OnError']" name="argsType">ChatroomInfoErrorEventArgs</attr>
+	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.ChatroomInfoListener']/method[@name='OnSuccess']" name="argsType">ChatroomInfoSuccessEventArgs</attr>
+	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.GetUserDataListener']/method[@name='OnError']" name="argsType">GetUserDataErrorEventArgs</attr>
+	<attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.GetUserDataListener']/method[@name='OnSuccess']" name="argsType">GetUserDataSuccessEventArgs</attr>
+<!--	<attr path="/api/package[@name='io.rong.imlib.location.stateMachine']/interface[@name='IState']" name="name">IMachineState</attr>-->
+<!--	<attr path="/api/package[@name='io.rong.imlib.model']/class[@name='MessageContent.MessageHandler.DefaultMessageHandler']/method[@name='afterDecodeMessage']/parameter[@name='p1']" name="type">Java.Lang.Object</attr>-->
+<!--	<attr path="/api/package[@name='io.rong.imlib.model']/class[@name='MessageContent.MessageHandler.DefaultMessageHandler']/method[@name='beforeEncodeMessage']/parameter[@name='p1']" name="type">Java.Lang.Object</attr>-->
+<!--	<attr path="/api/package[@name='io.rong.message']/class[@name='ImageMessageHandler']/method[@name='beforeEncodeMessage']/parameter[@name='p1']" name="type">Java.Lang.Object</attr>-->
+<!--	<attr path="/api/package[@name='io.rong.message']/class[@name='ImageMessageHandler']/method[@name='afterDecodeMessage']/parameter[@name='p1']" name="type">Java.Lang.Object</attr>-->
+<!--	<attr path="/api/package[@name='io.rong.message']/class[@name='LocationMessageHandler']/method[@name='beforeEncodeMessage']/parameter[@name='p1']" name="type">Java.Lang.Object</attr>-->
+<!--	<attr path="/api/package[@name='io.rong.message']/class[@name='LocationMessageHandler']/method[@name='afterDecodeMessage']/parameter[@name='p1']" name="type">Java.Lang.Object</attr>-->
+<!--	<attr path="/api/package[@name='io.rong.message']/class[@name='VoiceMessageHandler']/method[@name='beforeEncodeMessage']/parameter[@name='p1']" name="type">Java.Lang.Object</attr>-->
+<!--	<attr path="/api/package[@name='io.rong.message']/class[@name='VoiceMessageHandler']/method[@name='afterDecodeMessage']/parameter[@name='p1']" name="type">Java.Lang.Object</attr>-->
+	<attr path="/api/package[@name='io.rong.imlib.statistics']/class[@name='DeviceId']/method[@name='getType']" name="name">GetDeviceType</attr>
+	<!--	<attr path="/api/package[@name='io.rong.imlib']/class[@name='RongIMClient.ResultCallback']/method[@name='onSuccess']/parameter[@name='p0']" name="type">System.String</attr>-->
+	<remove-node path="/api/package[@name='io.rong.imkit.widget.provider']/interface[@name='IContainerItemProvider']/method[@name='bindView']">
+	</remove-node>
+<!--	<remove-node path="/api/package[@name='io.rong.eventbus.util']/class[@name='ErrorDialogFragmentFactory']" />-->
+	<remove-node path="/api/package[@name='io.rong.imageloader.cache.disc.impl.ext']/class[@name='LruDiskCache']/field[@name='cache']" />
+	<attr path="/api/package[@name='io.rong.imlib.stateMachine']/interface[@name='IState']" name="managedName">IMachineState</attr>
+	<attr path="/api/package[@name='io.rong.photoview']/interface[@name='IPhotoView']" name="managedName">IIMPhotoView</attr>
+	<attr path="/api/package[@name='io.rong.push.common.stateMachine']/interface[@name='IState']" name="managedName">ICommonMachineState</attr>
+	<attr path="/api/package[@name='io.rong.message']/class[@name='DefaultMessageHandler']/method[@name='decodeMessage']/parameter[2]" name="type">Java.Lang.Object</attr>
+<!--	<attr path="/api/package[@name='io.rong.imlib']/class[@name='RongIMClient.ConnectCallback']/method[@name='onSuccess']/parameter[1]" name="type">System.String</attr>-->
+
+	<attr path="/api/package[@name='io.rong.eventbus.util']/class[@name='ErrorDialogFragmentFactory.Support']/method[@name='createErrorFragment' and count(parameter)=2 and parameter[1][@type='io.rong.eventbus.util.ThrowableFailureEvent'] and parameter[2][@type='android.os.Bundle']]"
+			name="name"
+			>CreateErrorFragmentImpl</attr>
+	<attr path="/api/package[@name='io.rong.eventbus.util']/class[@name='ErrorDialogFragmentFactory.Honeycomb']/method[@name='createErrorFragment' and count(parameter)=2 and parameter[1][@type='io.rong.eventbus.util.ThrowableFailureEvent'] and parameter[2][@type='android.os.Bundle']]"
+			name="name"
+			>CreateErrorFragmentImpl</attr>
+</metadata>

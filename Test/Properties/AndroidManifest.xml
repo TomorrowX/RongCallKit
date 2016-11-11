@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="cn.cloudhua.test">
+	<uses-sdk android:minSdkVersion="16" />
+	<application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name">
+		<meta-data 
+			xmlns:tools="http://schemas.android.com/tools" 
+			tools:replace="android:value" 
+			android:name="RONG_CLOUD_APP_KEY" 
+			android:value="0vnjpoadnpktz" />
+	</application>
+</manifest>
